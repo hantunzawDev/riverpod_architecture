@@ -1,5 +1,5 @@
-import 'package:open_weather_example_flutter/src/entities/forecast/forecast.dart';
-import 'package:open_weather_example_flutter/src/entities/weather/weather_data.dart';
+import 'package:riverpod_architecture/src/entities/forecast/forecast.dart';
+import 'package:riverpod_architecture/src/entities/weather/weather_data.dart';
 
 /// Derived model class used in the UI
 class ForecastData {

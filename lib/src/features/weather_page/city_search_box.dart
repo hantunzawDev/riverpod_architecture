@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:open_weather_example_flutter/src/constants/app_colors.dart';
+import 'package:riverpod_architecture/src/constants/app_colors.dart';
 
 final cityProvider = StateProvider<String>((ref) {
   return 'London';

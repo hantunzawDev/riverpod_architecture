@@ -1,12 +1,13 @@
+
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:http/http.dart' as http;
-import 'package:open_weather_example_flutter/src/api/api.dart';
-import 'package:open_weather_example_flutter/src/api/api_keys.dart';
-import 'package:open_weather_example_flutter/src/entities/forecast/forecast.dart';
-import 'package:open_weather_example_flutter/src/entities/weather/weather.dart';
-import 'package:open_weather_example_flutter/src/repositories/api_error.dart';
+import 'package:riverpod_architecture/src/api/api.dart';
+import 'package:riverpod_architecture/src/api/api_keys.dart';
+import 'package:riverpod_architecture/src/entities/forecast/forecast.dart';
+import 'package:riverpod_architecture/src/entities/weather/weather.dart';
+import 'package:riverpod_architecture/src/repositories/api_error.dart';
 
 /// Weather Repository using the http client. Calls API methods and parses responses.
 class HttpWeatherRepository {
